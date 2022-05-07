@@ -9,7 +9,7 @@ public class Animals {
     private int id;
 
 
-    public Animals(String name, String ranger, String age, String location, String health, String status, String spottime,) {
+    public Animals(String name, String ranger, String age, String location, String health, String status, String spottime) {
         this.name = name;
         this.ranger = ranger;
         this.age = age;
@@ -19,4 +19,61 @@ public class Animals {
         this.spottime = spottime;
 
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getRanger() {
+        return ranger;
+    }
+
+    public void setRanger(String ranger) {
+        this.ranger = ranger;
+    }
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public String getHealth() {
+        return health;
+    }
+
+    public void setHealth(String health) {
+        this.health = health;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public String getSpottime() {
+        return spottime;
+    }
+
+    public void setSpottime(String spottime) {
+        this.spottime = spottime;
+    }
+
 }

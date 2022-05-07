@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ee3011e-75b8-4f86-9b31-f1bbfc3d5cbd" name="Changes" comment="added the UI templates">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Animals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" afterDir="false" />
+    <list default="true" id="1ee3011e-75b8-4f86-9b31-f1bbfc3d5cbd" name="Changes" comment="created an animals class and generated a constructor for its properties">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animals.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651939468415</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="created an animals class and generated a constructor for its properties">
+      <created>1651950110618</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651950110619</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +102,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added the UI templates" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the UI templates" />
+    <MESSAGE value="created an animals class and generated a constructor for its properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="created an animals class and generated a constructor for its properties" />
   </component>
 </project>
