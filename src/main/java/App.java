@@ -16,5 +16,15 @@ public class App {
             return new ModelAndView(model,"index.hbs");
         },new HandlebarsTemplateEngine());
     }
+//    get("/animals", (request, response) -> {
+//        Map<String, Object> model = new HashMap<>();
+//        model.put("animals",Animals.all());
+//        return new ModelAndView(model, "animals.hbs");
+//    }, new HandlebarsTemplateEngine());
+//
+//    get("/animal/new", (request, response) -> {
+//        Map<String, Object> model = new HashMap<>();
+//        return new ModelAndView(model, "animal-form.hbs");
+//    }, new HandlebarsTemplateEngine());
 
 }
