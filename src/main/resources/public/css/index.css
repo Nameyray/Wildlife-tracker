@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(./images/african-lion-ga4d349180_1920.jpg);
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  margin: 2%;
+  font-family: 'Jost', sans-serif;
+  justify-content: space-between;
+}
+a.nav-link{
+  color: darksalmon;
+  margin: 5%;
+}
+h3 {
+  margin-left: 10%;
+  color: white;
+}
+.nav-item a:hover {
+  color: palevioletred;
+
+}
+.hero{
+  margin-top: 20px;
+}
+.text {
+  margin-left: 7%;
+  color: white;
+  font-size: 3vw;
+  font-family: fantasy;
+  position: absolute;
+  bottom: 200px;
+  left: 00px;
+  width: 100%;
+  text-align: justify;
+}
+.now {
+  font-size: 1.5vw;
+  text-decoration: none;
+  color: white;
+  background-color: palevioletred
+  ;
+  padding: 1.2%;
+  padding-right: 3%;
+  padding-left: 3%;
+}

@@ -1,0 +1,57 @@
+
+{{#partial "content"}}
+    <nav class="navbar">
+        <h3>Wildlife<span style="color: palevioletred;">Tracker</span></h3>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Animals</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Rangers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Add Animal</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <table id="dtBasicExample" class="table" width="100%">
+                <thead>
+                <tr>
+                    <th class="th-sm">Name
+                    </th>
+                    <th class="th-sm">Ranger
+                    </th>
+                    <th class="th-sm">Age
+                    </th>
+                    <th class="th-sm">Location
+                    </th>
+                    <th class="th-sm">Health
+                    </th>
+                    <th class="th-sm">Status
+                    </th>
+                    <th class="th-sm">Time Spotted
+                </tr>
+                </thead>
+                <tbody>
+                {{#each animals}}
+                    <tr>
+                        <td class="box">{{name}}</td>
+                        <td>{{ranger}}</td>
+                        <td>{{age}}</td>
+                        <td>{{location}}</td>
+                        <td>{{health}}</td>
+                        <td>{{status}}</td>
+                        <td>{{time}}</td>
+                    </tr>
+                {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+{{/partial}}
+{{> layout.hbs}}
