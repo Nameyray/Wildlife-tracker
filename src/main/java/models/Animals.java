@@ -1,5 +1,7 @@
 package models;
 
+import org.sql2o.Connection;
+
 import java.util.List;
 import java.util.Objects;
 
@@ -30,6 +32,13 @@ public class Animals {
         if( o == null || getClass() != o.getClass()) return false;
         Animals animals = (Animals) o;
         return name == animals.name && age.equals(animals.age) && ranger.equals(animals.ranger) && location.equals(animals.location) && health.equals(animals.health) && status.equals(animals.status) && spottime.equals(animals.status);
+    }
+
+    public static List<Animals> all() {
+        String sql = "SELECT name, ranger, age, location, health, status, spottime FROM animals";
+        try (Connection con = DB.sql2o.open()) {
+            return con.createQuery(sql).executeAndFetch(Animals.class);
+        }
     }
     @Override
     public int hashCode() {return Objects.hash(name, age,ranger,location,health,status,spottime); }
@@ -88,9 +97,6 @@ public class Animals {
 
     public void setSpottime(String spottime) {
         this.spottime = spottime;
-    }
-    public static List<Animals> all(){
-        return all();
     }
 
 }

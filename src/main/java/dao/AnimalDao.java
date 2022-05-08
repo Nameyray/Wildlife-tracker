@@ -6,13 +6,8 @@ import java.util.List;
 
 public interface AnimalDao {
 
-    List<Animals> getAllAnimals();
+    List<Animals> all();
 
-    void addAnimals(models.Animals animals);
+    void save();
 
-    models.Animals findAnimalsById(int id);
-
-    void deleteAnimalsById( int id);
-
-    void deleteAllAnimals();
 }
