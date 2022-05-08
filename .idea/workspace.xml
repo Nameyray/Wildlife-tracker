@@ -4,24 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ee3011e-75b8-4f86-9b31-f1bbfc3d5cbd" name="Changes" comment="created an animals database">
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/DB.java" afterDir="false" />
+    <list default="true" id="1ee3011e-75b8-4f86-9b31-f1bbfc3d5cbd" name="Changes" comment="passed a test to instantiate an animal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/animal-form.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/animal-form.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/animal.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/animal.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/layout.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drop.sql" beforeDir="false" afterPath="$PROJECT_DIR$/drop.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/AnimalDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/AnimalDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/Sql2oAnimalDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/Sql2oAnimalDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Animals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/animal-form.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/animal-form.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/animals_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AnimalsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652018111429</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="passed a test to instantiate an animal">
+      <created>1652035528602</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1652035528602</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +153,7 @@
     <MESSAGE value="created an AnimalDao interface" />
     <MESSAGE value="created an Animal object and what it should return" />
     <MESSAGE value="created an animals database" />
-    <option name="LAST_COMMIT_MESSAGE" value="created an animals database" />
+    <MESSAGE value="passed a test to instantiate an animal" />
+    <option name="LAST_COMMIT_MESSAGE" value="passed a test to instantiate an animal" />
   </component>
 </project>

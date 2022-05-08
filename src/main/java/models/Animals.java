@@ -34,14 +34,30 @@ public class Animals {
         return name == animals.name && age.equals(animals.age) && ranger.equals(animals.ranger) && location.equals(animals.location) && health.equals(animals.health) && status.equals(animals.status) && spottime.equals(animals.status);
     }
 
+    @Override
+    public int hashCode() {return Objects.hash(name, age,ranger,location,health,status,spottime); }
+
     public static List<Animals> all() {
         String sql = "SELECT name, ranger, age, location, health, status, spottime FROM animals";
         try (Connection con = DB.sql2o.open()) {
             return con.createQuery(sql).executeAndFetch(Animals.class);
         }
     }
-    @Override
-    public int hashCode() {return Objects.hash(name, age,ranger,location,health,status,spottime); }
+    public void save() {
+        try (Connection con = DB.sql2o.open()) {
+            String sql = "INSERT INTO animals (name, ranger, age, location, health, status, spottime ) VALUES (:name, :ranger, :age, :location, :health, :status, spottime)";
+            this.id = (int) con.createQuery(sql, true)
+                    .addParameter("name", this.name)
+                    .addParameter("ranger", this.ranger)
+                    .addParameter("age", this.age)
+                    .addParameter("location", this.location)
+                    .addParameter("health", this.health)
+                    .addParameter("status", this.status)
+                    .addParameter("spottime", this.spottime)
+                    .executeUpdate()
+                    .getKey();
+        }
+    }
 
     public String getName() {
         return name;
