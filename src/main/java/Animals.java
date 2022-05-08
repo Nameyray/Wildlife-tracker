@@ -1,4 +1,5 @@
 import java.util.List;
+import java.util.Objects;
 
 public class Animals {
     private String name;
@@ -21,6 +22,15 @@ public class Animals {
         this.spottime = spottime;
 
     }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if( o == null || getClass() != o.getClass()) return false;
+        Animals animals = (Animals) o;
+        return name == animals.name && age.equals(animals.age) && ranger.equals(animals.ranger) && location.equals(animals.location) && health.equals(animals.health) && status.equals(animals.status) && spottime.equals(animals.status);
+    }
+    @Override
+    public int hashCode() {return Objects.hash(name, age,ranger,location,health,status,spottime); }
 
     public String getName() {
         return name;
