@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class Animals {
     private String name;
     private String ranger;
@@ -74,6 +76,9 @@ public class Animals {
 
     public void setSpottime(String spottime) {
         this.spottime = spottime;
+    }
+    public static List<Animals> all(){
+        return all();
     }
 
 }
