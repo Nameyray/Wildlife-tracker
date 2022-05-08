@@ -1,3 +1,4 @@
+import models.Animals;
 import spark.ModelAndView;
 import spark.template.handlebars.HandlebarsTemplateEngine;
 
@@ -23,7 +24,7 @@ public class App {
 
         get("/animals", (request, response) -> {
             Map<String, Object> model = new HashMap<>();
-//            model.put("animals",Animals.all());
+//            model.put("animals",models.Animals.all());
             return new ModelAndView(model, "animals.hbs");
         }, new HandlebarsTemplateEngine());
 
