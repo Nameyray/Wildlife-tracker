@@ -13,6 +13,15 @@ public class Animals {
     private String health;
     private String status;
     private String spottime;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     private int id;
 
 
@@ -45,7 +54,7 @@ public class Animals {
     }
     public void save() {
         try (Connection con = DB.sql2o.open()) {
-            String sql = "INSERT INTO animals (name, ranger, age, location, health, status, spottime ) VALUES (:name, :ranger, :age, :location, :health, :status, spottime)";
+            String sql = "INSERT INTO animals (name, ranger, age, location, health, status, spottime, id) VALUES (:name, :ranger, :age, :location, :health, :status, spottime, id)";
             this.id = (int) con.createQuery(sql, true)
                     .addParameter("name", this.name)
                     .addParameter("ranger", this.ranger)
@@ -54,8 +63,20 @@ public class Animals {
                     .addParameter("health", this.health)
                     .addParameter("status", this.status)
                     .addParameter("spottime", this.spottime)
+                    .addParameter("id", this.id)
                     .executeUpdate()
                     .getKey();
+        }
+    }
+
+    public static Animals find(int id) {
+        try (Connection con = DB.sql2o.open()) {
+            String sql = "SELECT * FROM animals where id=:id";
+            Animals animal = con.createQuery(sql)
+                    .addParameter("id", id)
+                    .throwOnMappingFailure(false)
+                    .executeAndFetchFirst(Animals.class);
+            return animal;
         }
     }
 
@@ -114,5 +135,7 @@ public class Animals {
     public void setSpottime(String spottime) {
         this.spottime = spottime;
     }
+
+
 
 }
