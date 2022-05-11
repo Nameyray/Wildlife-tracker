@@ -1,6 +1,7 @@
 package models;
 
 import java.sql.Timestamp;
+import java.text.DateFormat;
 import java.util.Objects;
 
 public class Sightings {
@@ -9,6 +10,16 @@ public class Sightings {
     public String location;
     public String rangerName;
     public Timestamp timestamp;
+    public String sightTime;
+
+    public String getSightTime() {
+        sightTime = DateFormat.getDateTimeInstance().format(timestamp);
+        return sightTime;
+    }
+
+    public void setSightTime(String sightTime) {
+        this.sightTime = sightTime;
+    }
 
     public Sightings(String animalName, String location, String rangerName) {
         this.animalName = animalName;

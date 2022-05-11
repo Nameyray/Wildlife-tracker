@@ -40,4 +40,13 @@ public class EndangeredAnimalsDao implements EndangeredAnimalsInterface{
                     .executeAndFetch(EndangeredAnimals.class); //fetch a list
         }
     }
+
+    @Override
+    public List<EndangeredAnimals> getEndangered() {
+        try(Connection con = DB.sql2o.open()){
+            return con.createQuery("SELECT * FROM animals WHERE type = 'Endangered' AND id = :id " ) //raw sql
+                    .throwOnMappingFailure(false)
+                    .executeAndFetch(EndangeredAnimals.class); //fetch a list
+        }
+    }
 }
