@@ -12,44 +12,24 @@
 <div class="container">
     <div class="row">
         <div class="col-md-4">
-            <form action="/animals" method="post">
-                <p class="h4 mb-4">Animal Spotted</p>
-                <input type="text" id="name" name="name" class="form-control mb-4" placeholder="Animal Name" >
-                <input type="text" id="ranger" name="ranger" class="form-control mb-4" placeholder="Ranger's Name">
-                <input list="age-list"type="text" id="age" name="age" class="form-control mb-4" placeholder="Age eg:young">
-                <datalist id="age-list">
-                    <option>NewBorn</option>
-                    <option>Young</option>
-                    <option>Adult</option>
-                </datalist>
-                <input list="Sighting"type="text" id="sighting" name="sighting" class="form-control mb-4" placeholder="sighting i.e West">
-                <datalist id="Sighting">
-                    <option>North</option>
-                    <option>South</option>
-                    <option>East</option>
-                    <option>West</option>
-                </datalist>
-
-
-                <input list="health-list" type="text"  id="health" name="health" class="form-control mb-4" placeholder="Health">
-                <datalist id="health-list">
-                    <option>Healthy</option>
-                    <option>Okay</option>
-                    <option>Ill</option>
-                </datalist>
-                <input list="status-list" type="text" id="status" name="status" class="form-control mb-4" placeholder="Status eg Endengared">
-                <datalist id="status-list">
-                    <option>Endangered</option>
-                    <option>Not Endangered</option>
-                </datalist>
-
-                <div class="d-flex justify-content-around">
-                </div>
-
-                <button class="btn btn-info " type="submit">Submit</button>
-            </form>
+            <div class="content">
+                <h3 class="text-center">Add Animal</h3>
+                <form action="/animals" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" class="form-control transparentInputFields">
+                    </div>
+                    <button class="btn btn-info " type="submit" name="add-animal">Add</button>
+                </form>
+            </div>
+        </div>
         </div>
     </div>
+</div>
+<div>
+    <ol class="text-success" style="font-weight: 800px">
+        <li>© 2022 All Rights Reserved</li>
+    </ol>
 </div>
 </body>
 </html>

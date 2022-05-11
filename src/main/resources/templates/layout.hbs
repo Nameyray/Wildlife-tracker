@@ -16,13 +16,13 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="animal/new">New Animal</a>
+            <a class="nav-link" href="animals/new">Animals</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/animals">models.Animals</a>
+            <a class="nav-link" href="endangered/new">Endangered</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Rangers</a>
+            <a class="nav-link" href="sightings/new">Sightings</a>
         </li>
 
     </ul>
@@ -34,6 +34,46 @@
 <!--        <a class="now" href="">Welcome</a>-->
         <a href="animal/new" class="now">Get Started</a>
     </div>
+</div>
+<div class="container-fluid">
+    <div class="card" style="width: 22rem;">
+        <img src="/images/african-lion-ga4d349180_1920.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Which animal did you see?</h5>
+            <p class="card-text">
+            <form action="animals/new" >
+                <button type="submit" class="btn btn-warning btn-sm">Add </button>
+            </form>
+            </p>
+        </div>
+    </div>
+    <div class="card" style="width: 22rem;">
+        <img src="/images/nature-gb937a4756_1920.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Did you site an animal?</h5>
+            <p class="card-text">
+            <form action="/sightings/new" >
+                <button type="submit" class="btn btn-warning btn-sm">Add </button>
+            </form>
+            </p>
+        </div>
+    </div>
+    <div class="card" style="width: 22rem;">
+        <img src="/images/animals-g94fdf8efd_1920.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Sited an endangered Animal?</h5>
+            <p class="card-text">
+            <form action="/endangered/new" >
+                <button type="submit" class="btn btn-warning btn-sm">Add </button>
+            </form>
+            </p>
+        </div>
+    </div>
+</div>
+<div>
+    <ol class="text-success" style="font-weight: 800px">
+        <li>© 2022 All Rights Reserved</li>
+    </ol>
 </div>
 
 

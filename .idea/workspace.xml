@@ -5,11 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ee3011e-75b8-4f86-9b31-f1bbfc3d5cbd" name="Changes" comment="added a method to save animals values">
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/AnimalsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/DatabaseManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/EndangeredAnimals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Sightings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/SightingsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/sql2oAnimalsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/sql2oSightingsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/endangered-form.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/sighting-form.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/sightings.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Sightings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/public/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/public/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/animal-form.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/animal-form.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/animal.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/animal.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/layout.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/create.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drop.sql" beforeDir="false" afterPath="$PROJECT_DIR$/drop.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/AnimalDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/Sql2oAnimalDao.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Animals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/animal-form.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/animal-form.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/animal.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/animal.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AnimalsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AnimalsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +73,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="28nzLuRY1CgEsSn0MXOtwPbnrc6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -62,11 +92,14 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dao" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/public/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AnimalsTest">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="Wildlife-tracker.main" />
@@ -97,7 +130,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AnimalsTest.animal_instantiatesCorrectly_true (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AnimalsTest.all_returnsAllInstancesOfAnimal_false" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -110,7 +143,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;AnimalsTest.animal_instantiatesCorrectly_true&quot;" />
+            <option value="&quot;AnimalsTest.all_returnsAllInstancesOfAnimal_false&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -120,7 +153,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AnimalsTest.save_assignsIdToAnimal (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Sightings.Sightings_instantiatesCorrectly (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -133,7 +166,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;AnimalsTest.save_assignsIdToAnimal&quot;" />
+            <option value="&quot;Sightings.Sightings_instantiatesCorrectly&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Sightings.getId_sightingInstantiatesWithId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;Sightings.getId_sightingInstantiatesWithId&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -145,10 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AnimalsTest" />
-        <item itemvalue="Gradle.AnimalsTest.animal_instantiatesCorrectly_true (1)" />
-        <item itemvalue="Gradle.AnimalsTest.save_assignsIdToAnimal (1)" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Gradle.Sightings.Sightings_instantiatesCorrectly (1)" />
+        <item itemvalue="Gradle.Sightings.getId_sightingInstantiatesWithId" />
+        <item itemvalue="Gradle.AnimalsTest" />
+        <item itemvalue="Gradle.AnimalsTest.all_returnsAllInstancesOfAnimal_false" />
       </list>
     </recent_temporary>
   </component>

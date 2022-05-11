@@ -28,15 +28,17 @@
     </ul>
 </nav>
 <div class="col-md-12 mb-4 white-text text-center">
+    <h3 class="text-warning text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 animated wobble"><strong> Sightings: </strong></h3>
     <div class="row">
         <div class="col-sm-4 col-sm-offset-4">
-            <a href="/animals/new"><button type="button" class="btn btn-primary">Add Animal</button></a>
-            <a href="/endangered/new"><button type="button" class="btn btn-warning">Add Endangered Animal</button></a>
-            <h3 class="hr-light text-monospace stylistsTitle text-warning">All Animals:</h3>
-            #foreach($animal in $animals)
-            <h5>
-                <a href="/animals/$animal.getId()">$animals.getName()</a> <em>($animals.getType())</em>
-            </h5>
+            <a href="/sightings/new"><button type="button" class="btn btn-info">Add Sighting</button></a>
+            <h3>All Sightings:</h3>
+            #foreach($sighting in $sightings)
+            <h3><a href="/animals/$sighting.getAnimalId()">$Animals.find($sighting.getAnimalsId()).getName()</a></h3>
+            <p><em>$sighting.getTimeSeen()</em></p>
+            <p>
+                Location: $sightings.getLocation(), Ranger: $sightings.getRangerName()
+            </p>
             #end
         </div>
     </div>
@@ -46,6 +48,5 @@
         <li>© 2022 All Rights Reserved</li>
     </ol>
 </div>
-
 </body>
 </html>
