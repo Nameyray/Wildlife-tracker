@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ee3011e-75b8-4f86-9b31-f1bbfc3d5cbd" name="Changes" comment="added a method to save animals values">
+    <list default="true" id="1ee3011e-75b8-4f86-9b31-f1bbfc3d5cbd" name="Changes" comment="restructured the projected three classes">
       <change afterPath="$PROJECT_DIR$/src/main/java/models/AnimalsDao.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/models/DatabaseManagement.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/models/EndangeredAnimals.java" afterDir="false" />
@@ -281,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652036370890</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="restructured the projected three classes">
+      <created>1652246635110</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1652246635111</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,6 +312,7 @@
     <MESSAGE value="created an animals database" />
     <MESSAGE value="passed a test to instantiate an animal" />
     <MESSAGE value="added a method to save animals values" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a method to save animals values" />
+    <MESSAGE value="restructured the projected three classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="restructured the projected three classes" />
   </component>
 </project>
