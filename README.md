@@ -1,8 +1,7 @@
 **#Wildlife_tracker**
-<p align = "center"><img src="img.png"></p>
 
 **##Project Description**
-The project covers postgree sql database and the concept of objects within object. It allows a user to recors animals either endangered or not as well as thier sightings and their details as rangers.
+The project covers postgree sql database and the concept of objects within object. It allows a user to record animals either endangered or not as well as thier sightings and the details for rangers.
 
 
 
@@ -65,3 +64,5 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 **Authors info**
 namibaracheal@gmail.com
 Rachel Namiba![img](https://user-images.githubusercontent.com/97960990/168148460-a6664259-849d-4cf5-853f-da2cab875d5f.png)
+
+<p align = "center"><img src="img.png"></p>
