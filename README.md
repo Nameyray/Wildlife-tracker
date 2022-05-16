@@ -1,54 +1,80 @@
-**#Wildlife_tracker**
+**Wildlife_tracker**
 
-**##Project Description**
+**Project Description**
 The project covers postgree sql database and the concept of objects within object. It allows a user to record animals either endangered or not as well as thier sightings and the details for rangers.
 
+![img](https://user-images.githubusercontent.com/97960990/168569805-83ab813c-84af-45b1-9063-f35833d1f11e.png)
 
+**Table of Content**
 
-**##Table of Content**
 .Description
+
 .Installation Requirement
+
 .Technology Used
+
 .License
+
 .Authors Info
 
-**##Description**
-The project covers postgree sql database and the concept of objects within object. It allows a user to recors animals either endangered or not as well as thier sightings and their details as rangers.
+**Description**
+
+The project covers postgree sql database and the concept of objects within objects. It allows a user to record animals either endangered or not as well as thier sightings and their details as rangers.
 
 **Installation**
+
 To run the application, in your terminal:
 
 Clone or download the Repository
+
 cd into directory then run cd Wildlife_track
+
 Rebuild the Project Using Intellij IDEA or ...
 Open terminal command line then navigate to the root folder of the application.
+
 Run gradle run command.
+
 Navigate to http://localhost:4567/ in your browser.
 
 **Technologies used**
+
 Java v11
+
 Gradle
+
 Spark Framework
+
 CSS (Bootstrap)
+
 JUnit v4.12
+
 Maven Plugin
+
 Handlebars Templating Engine
+
 Postgres SQL
 
-**Development
+**Development**
+
 To fix a bug or make contributions to the work:
 
-1.Fork the repo
-2.Create a new branch (git checkout -b improve-feature)
-3.Make the appropriate changes in the files
-4.Add changes to reflect the changes made
-5.Commit your changes (git commit -am 'Improve feature')
-6.Push to the branch (git push origin improve-feature)
-7.Create a Pull Request
+Fork the repo
+Create a new branch (git checkout -b improve-feature)
+
+Make the appropriate changes in the files
+
+Add changes to reflect the changes made
+
+Commit your changes (git commit -am 'Improve feature')
+
+Push to the branch (git push origin improve-feature)
+
+Create a Pull Request
 
 **Known bugs**
+
 The project isn't working that much still being worked on.
-But If you'd like to request a new function, feel free to do so by opening an issue.
+But If you'd like to request a new function, feel free to do so by opening an issue. 
 
 **License**
 
@@ -62,7 +88,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 **Authors info**
-namibaracheal@gmail.com
-Rachel Namiba![img](https://user-images.githubusercontent.com/97960990/168148460-a6664259-849d-4cf5-853f-da2cab875d5f.png)
 
-<p align = "center"><img src="img.png"></p>
+namibaracheal@gmail.com
+
+Rachel Namiba
+
+
